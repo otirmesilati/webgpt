@@ -1,12 +1,13 @@
 import React from 'react'
-import './brand.css'
+import './article.css'
 
-const Brand = () => {
+const Article = () => {
   return (
     <div>
-      Brand
+      Article
     </div>
   )
 }
 
-export default Brand
+export default Article
+

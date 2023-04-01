@@ -1,9 +1,22 @@
 import React from 'react'
 
+import { Footer, Blog, Possibility, Features, SE, Header } from './containers';
+import { CTA, Brand, Navbar, } from './components';
+
 const App = () => {
   return (
-    <div>
-        <h1> Web - Gpt Website! </h1>
+    <div className="App">
+      <div className="gradient_bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <SE />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
     </div>
   )
 }
